@@ -15,14 +15,28 @@
   Thank you for taking the time to help us improve the platform
 </p>
 <form id="survey-form">
-  <label for="name" id="name-label">Name</label>
-  <input id="name" type="text"  placeholder="Enter your name"><br><br><br>
+  <label id="name-label" for="name">Name</label>
+  <input id="name" type="text" placeholder="Enter your name" required><br><br><br>
 
-  <label for="email" id="email-label">Email</label>
+  <label id="email-label" for="email">Email</label>
   <input id="email" type="email" placeholder="Enter your email" required >
   <br><br><br>
-  <label for="number" id="number-label">Age</label>  
-  <input id="number" type="number" placeholder="Enter your Age" min="18" max="100" required>
+  <label id="number-label" for="number">Age</label>
+  
+  <input id="number" type="number" placeholder="Enter your Age"  min="18" max="100" required>
+  <br><br><br>
+  <label for="dropdown">Which option best describes your current role?</label>
+  <select name="dropdown" id="dropdown">
+    <option value="student">Student</option>
+    <option value="full-time-job">Full time job</option>
+    <option value="full-time-learner">Full Time Learner</option>
+    <option value="prefer-not-to-say">Prefer Not To Say</option>
+    <option value="other">Other</option>
+  </select>
+  
+
+
+
 </form>
 
 
